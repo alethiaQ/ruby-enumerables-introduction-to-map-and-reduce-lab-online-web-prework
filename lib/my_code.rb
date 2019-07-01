@@ -34,7 +34,7 @@ def map_to_square(source_array)
   
   source_array.length.times do [i]
     new_arr.push(source_array[i] ** 2)
-end
+  end
 return new_arr
 end 
 
