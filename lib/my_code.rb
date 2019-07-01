@@ -19,4 +19,20 @@ def map_to_no_change(source_array)
   end 
   return new_arr
 end 
+
+def map_to_double(source_array)
+  new_arr = []
+  
+  source_array.length.times do |i|
+    new_arr.push(source_array[i] * 2)
+  end 
+  return new_arr
+end
     
+
+
+
+
+
+
+
