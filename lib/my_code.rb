@@ -17,5 +17,6 @@ def map_to_no_change(source_array)
     new_arr.push(source_array[i])
     i += 1 
   end 
+  return new_arr
 end 
     
