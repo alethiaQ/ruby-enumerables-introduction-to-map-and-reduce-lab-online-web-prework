@@ -57,3 +57,9 @@ def reduce_to_all_true(source_array)
   return true
 end
 
+def reduce_to_any_true(source_array)
+  source_array.length.times do |i|
+    return true if !!source_array[i]
+  end
+  return true 
+end 
